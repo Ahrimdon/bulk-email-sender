@@ -100,7 +100,7 @@ def send_emails(server: SMTP, template, is_html):
 
 
 if __name__ == "__main__":
-    host = "smtppro.zoho.in"
+    host = "smtp.gmail.com"
     port = 587  # TLS replaced SSL in 1999
 
     is_html = MAIL_COMPOSE.endswith("html")
